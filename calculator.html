@@ -10,18 +10,21 @@
     </head>
     <body>
         <main class="calc">
-            <section class="calc__output">{Output}</section>
+            <section class="calc__output">
+                <p class="calc__output__prevOut"></p>
+                <p class="calc__output__main">+-Welcome&times;&divide;</p>
+            </section>
             <section class="calc__row">
                 <button class="calc__row__btn" id="btnClear">AC</button>
-                <button class="calc__row__btn">()</button>
-                <button class="calc__row__btn">%</button>
-                <button class="calc__row__btn calc__row__btnOps">&divide</button>
+                <button class="calc__row__btn calc__row__btnOps">&pi;</button>
+                <button class="calc__row__btn calc__row__btnOps">^</button>
+                <button class="calc__row__btn calc__row__btnOps">&divide;</button>
             </section>
             <section class="calc__row">
                 <button class="calc__row__btn calc__row__btnNum">7</button>
                 <button class="calc__row__btn calc__row__btnNum">8</button>
                 <button class="calc__row__btn calc__row__btnNum">9</button>
-                <button class="calc__row__btn calc__row__btnOps" id="btnMultiply">&times</button>
+                <button class="calc__row__btn calc__row__btnOps">&times;</button>
             </section>
             <section class="calc__row">
                 <button class="calc__row__btn calc__row__btnNum">4</button>
@@ -30,7 +33,7 @@
                 <button class="calc__row__btn calc__row__btnOps">-</button>
             </section>
             <section class="calc__row">
-                <button class="calc__row__btn calc__row__btnNum" id="btnOne">1</button>
+                <button class="calc__row__btn calc__row__btnNum">1</button>
                 <button class="calc__row__btn calc__row__btnNum">2</button>
                 <button class="calc__row__btn calc__row__btnNum">3</button>
                 <button class="calc__row__btn calc__row__btnOps">+</button>
@@ -38,7 +41,7 @@
             <section class="calc__row">
                 <button class="calc__row__btn calc__row__btnNum">0</button>
                 <button class="calc__row__btn" id="btnDot">.</button>
-                <button class="calc__row__btn" id="btnDel">&#9003</button>
+                <button class="calc__row__btn" id="btnDel">&#9003;</button>
                 <button class="calc__row__btn" id="btnEquals">=</button>
             </section>
         </main>
