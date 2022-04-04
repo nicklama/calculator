@@ -4,7 +4,7 @@
 
 For this project, I aimed to create a fully functioning calculator by combining all the skills I have learnt so far in HTML, SCSS/CSS and JavaScript. The calculator supports the following operations: [+, -, /, *, =, ^] as well as Pi, negative numbers and decimals.
 
-![image](https://user-images.githubusercontent.com/100544978/161195522-8928c388-418d-430f-83ab-ec5bf3f22eda.png)
+<img src="https://user-images.githubusercontent.com/100544978/161481636-5bf08425-99af-484f-b388-c96e3d0ffa0d.png" alt="My JavaScript Calculator" title="JavaScript Calculator" width="450"/>
 
 ## Implementation Breakdown
 
